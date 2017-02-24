@@ -1,0 +1,13 @@
+TEAM FOR THIS ASSIGNMENT:
+
+Allan Osborne
+Felicia Robinson
+Marsha paraDyce
+Murata Gulubiano
+
+REASONS WHY IT ISN’T WORKING as intended…
+
+Had issues trying to get an array to mingle with the randomizeTiles function. We tried everything that we do know and nothing was working, we got it to shuffle, but it still wasn't enough.
+As you get to the end of the game, you are left with a few tiles with no matches…
+We had a challenge portion of this (in a form of a countdown timer), but it also wasn't working so we scrapped it.
+EVERYTHING ELSE  should be working as intended.

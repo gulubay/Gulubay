@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  max-width: 1212px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.col_3 {
+  display: inline;
+  float: left;
+  width: 21.699669966996698%;
+  margin: 0 1.65016501650165%;
+}
+.col_2 {
+  display: inline;
+  float: left;
+  width: 55.03300330033003%;
+  margin: 0 1.65016501650165%;
+}
+@media (max-width: 1140px) {
+  #meet .col_3 {
+    display: inline;
+    float: left;
+    width: 46.6996699669967%;
+    margin: 0 1.65016501650165%;
+  }
+}
+@media (max-width: 1128px) {
+  #discuss .col_2 {
+    display: inline;
+    float: left;
+    width: 63.366336633663366%;
+    margin: 0 1.65016501650165%;
+  }
+  #discuss .col_3 {
+    display: inline;
+    float: left;
+    width: 63.366336633663366%;
+    margin: 0 1.65016501650165%;
+  }
+  footer .col_3 {
+    display: inline;
+    float: left;
+    width: 30.033003300330037%;
+    margin: 0 1.65016501650165%;
+  }
+}
+@media (max-width: 940px) {
+  #facts .col_3 {
+    padding-top: 50px;
+    display: inline;
+    float: left;
+    width: 46.6996699669967%;
+    margin: 0 1.65016501650165%;
+  }
+  footer .col_3 {
+    display: inline;
+    float: left;
+    width: 96.69966996699671%;
+    margin: 0 1.65016501650165%;
+  }
+}

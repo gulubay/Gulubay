@@ -1,0 +1,213 @@
+#workPage {
+  width: 100%;
+  background: url('../img/wBG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+#workPage .overlay {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+}
+#workPage .overlay #shadow {
+  font-size: 100px;
+  color: #c2c2c2;
+  padding-left: 23px;
+}
+#workPage h1 {
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 65px;
+}
+#workPage #centreText {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 35px;
+}
+#workPage .frameA {
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  width: 98%;
+  padding-top: 98%;
+  position: relative;
+}
+#workPage .frameA .txtBG {
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  color: #000;
+}
+#workPage .imgFrame {
+  overflow: hidden;
+  border-bottom: none;
+  margin-top: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  background: url('../img/web1.png');
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+#workPage .imgFrame h1 {
+  margin-bottom: -410px;
+}
+#workPage .frameA:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  -webkit-transition: 0.5s;
+}
+#workPage .aFrame {
+  background: url('../img/brandiSite.png');
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#workPage .bFrame {
+  background: url('../img/playball.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#workPage .wrapper {
+  text-align: center;
+}
+#workPage .wrapper h2 {
+  color: #22313F;
+  text-align: center;
+}
+@media (min-width: 800px) and (max-width: 1289px) {
+  #workPage {
+    height: 1500px;
+    width: 100%;
+    background: url('../img/wBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  #workPage .overlay {
+    height: 1500px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+  }
+  #workPage .overlay #shadow {
+    font-size: 100px;
+    color: #c2c2c2;
+    padding-left: 23px;
+  }
+  #workPage h1 {
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 65px;
+  }
+  #workPage #centreText {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-top: 35px;
+  }
+  #workPage .frameA {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    position: static;
+    padding-top: 0;
+    width: auto;
+  }
+  #workPage .frameA .txtBG {
+    overflow: hidden;
+    height: 50px;
+    width: 370px;
+    background: #fff;
+    color: #000;
+  }
+  #workPage .imgFrame {
+    position: static;
+    overflow: hidden;
+    border: 30px solid white;
+    border-bottom: none;
+    height: 251px;
+    width: 370px;
+    background-color: #fff;
+    background: url('../img/web1.png');
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  #workPage .imgFrame h1 {
+    margin-bottom: -410px;
+  }
+  #workPage .frameA:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    -webkit-transition: 0.5s;
+  }
+  #workPage .aFrame {
+    background: url('../img/brandiSite.png');
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #workPage .bFrame {
+    background: url('../img/playball.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #workPage .wrapper {
+    width: 85%;
+    margin: 0 auto;
+  }
+  #workPage .wrapper h2 {
+    color: #22313F;
+  }
+  #workPage .frameA {
+    margin-top: 20px;
+  }
+  #workPage a:nth-child(1) {
+    float: none;
+  }
+  #workPage a:nth-child(3) {
+    float: none;
+  }
+}
+@media (min-width: 1290px) {
+  #workPage {
+    height: 800px;
+  }
+  #workPage .overlay {
+    height: 800px;
+  }
+  #workPage .frameA {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    position: static;
+    padding-top: 0;
+    width: auto;
+  }
+  #workPage .imgFrame {
+    position: static;
+    overflow: hidden;
+    border: 30px solid white;
+    border-bottom: none;
+    height: 251px;
+    width: 370px;
+  }
+  #workPage .imgFrame h1 {
+    margin-bottom: -410px;
+  }
+  #workPage a:nth-child(1) {
+    float: left;
+  }
+  #workPage a:nth-child(3) {
+    float: right;
+  }
+}

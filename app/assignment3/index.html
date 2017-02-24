@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript" src="puzzlegame.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            PuzzleGame.init($('.tile'), 3, 6, 9);
+        });
+
+        $(function() {
+            $('.tile').click(function(e) {
+                var tile = $(e.currentTarget);
+                if(tile.hasClass('flipToBack')) {
+                    tile.removeClass('flipToBack').addClass('flipToFront');
+                } else {
+                    tile.removeClass('flipToFront').addClass('flipToBack');
+                }
+            });
+        });
+
+
+    </script>
+
+
+    <title>Assignment 3 - Simple Game Project</title>
+</head>
+<body>
+<!-- The main frame of the game -->
+<div id="appFrame">
+    <div class="header">
+        <h1>Playball Match Card Game</h1>
+        <div class="matchesFound">Matched: <span class="currentMatched">0</span> of <span class="totalMatches">0</span></div>
+        <div class="clock"></div>
+    </div>
+
+    <div class="gameGrid">
+        <div class="tileRow">
+            <div class="tile flipToFront objType1" data-type="1" data-x="0" data-y="0">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="1" data-y="0">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="2" data-y="0">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="3" data-y="0">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="4" data-y="0">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="5" data-y="0">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tileRow">
+            <div class="tile flipToFront objType1" data-type="1" data-x="0" data-y="1">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="1" data-y="1">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="2" data-y="1">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="3" data-y="1">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="4" data-y="1">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="5" data-y="1">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tileRow">
+            <div class="tile flipToFront objType1" data-type="1" data-x="0" data-y="2">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="1" data-y="2">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="2" data-y="2">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="3" data-y="2">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="4" data-y="2">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+            <div class="tile flipToFront objType1" data-type="1" data-x="5" data-y="2">
+                <div class="tileContent">
+                    <div class="tileFront"></div>
+                    <div class="tileBack"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="results">
+        <span class="gameOver"></span><br />
+        <a href="javascript:location.reload();">New Game</a>
+    </div>
+</div>
+</body>
+</html>
